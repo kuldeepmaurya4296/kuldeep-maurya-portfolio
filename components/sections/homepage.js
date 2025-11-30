@@ -41,7 +41,7 @@ export default function HomePage({portfolioData}) {
       className="w-full"
       >
       <Navbar />
-      <main className="w-full">
+      <main className="w-full overflow-x-hidden">
         <Hero />
         <DownloadResumeButton file={file}/>
         <About />

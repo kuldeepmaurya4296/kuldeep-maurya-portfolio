@@ -43,7 +43,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <p className="text-base sm:text-lg text-foreground/70 leading-relaxed mb-6">
-              {about.description}
+              {about?.description}
             </p>
             <motion.div
               initial={{ opacity: 0 }}
@@ -52,7 +52,7 @@ export default function About() {
               viewport={{ once: true }}
             >
               <p className="text-foreground/60 leading-relaxed text-base sm:text-lg">
-                When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and helping others learn web development. Let's build something amazing together!
+                When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and helping others learn web development. Let's build something amazing together !
               </p>
             </motion.div>
           </motion.div>

@@ -12,12 +12,11 @@ export const portfolioData = {
   },
   about: {
     title: "About Me",
-    description: `
-I’m a passionate MERN Stack and Java developer with hands-on experience in building modern, responsive, and user-friendly applications. Currently, I work as a Frontend Developer Intern at Flourishers Edge Pvt. Ltd., where I build websites using Next.js, React, Tailwind CSS, and Framer Motion.
+    description: `I am a MERN Stack and Java Developer with strong experience in building modern, responsive, and user-friendly web applications. I currently work as a Frontend Developer at Flourishers Edge Pvt. Ltd., where I create websites using Next.js, React, Tailwind CSS, and Framer Motion.
 
-I have developed real-world projects like a Real-Time Chat App, Admin Panel with RBAC, Propeller LED Display, Receipt Generator, and Recipe Generation System.  
-I enjoy solving problems, writing clean code, and continuously learning new technologies to improve my development skills.
-`,
+    I have built real-world projects such as corporate websites, school websites, landing page templates, a news portal with CMS, a real-time chat application, a text summarizer, and many utility tools. I enjoy writing clean code, improving UI/UX, and learning new technologies.
+    
+    My focus is on building fast, smooth, and visually appealing web experiences. I love solving problems and continuously improving my development skills.`,
 
     image: "/kuldeep3.png",
   },

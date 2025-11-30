@@ -103,7 +103,7 @@ export default function Projects() {
           className="mt-12 md:mt-16 flex justify-center"
         >
           <Link href="/projects">
-            <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all hover:scale-105">
+            <button className="bg-primary cursor-pointer text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all hover:scale-105">
               View All Projects
             </button>
           </Link>
