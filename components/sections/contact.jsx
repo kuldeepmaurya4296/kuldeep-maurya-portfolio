@@ -17,29 +17,63 @@ export default function Contact() {
     setError({ ...error, [e.target.name]: false });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    // Simple validation
-    const newError = {
-      name: formData.name.trim() === '',
-      email: formData.email.trim() === '',
-      message: formData.message.trim() === '',
-    };
+  //   // Simple validation
+  //   const newError = {
+  //     name: formData.name.trim() === '',
+  //     email: formData.email.trim() === '',
+  //     message: formData.message.trim() === '',
+  //   };
 
-    if (newError.name || newError.email || newError.message) {
-      setError(newError);
-      return;
-    }
+  //   if (newError.name || newError.email || newError.message) {
+  //     setError(newError);
+  //     return;
+  //   }
 
-    console.log('Submitted Data:', formData);
-    setSubmitted(true);
+  //   console.log('Submitted Data:', formData);
+  //   setSubmitted(true);
 
-    setTimeout(() => {
-      setSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
-    }, 3000);
+  //   setTimeout(() => {
+  //     setSubmitted(false);
+  //     setFormData({ name: '', email: '', message: '' });
+  //   }, 3000);
+  // };
+
+
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  // Validation
+  const newError = {
+    name: formData.name.trim() === '',
+    email: formData.email.trim() === '',
+    message: formData.message.trim() === '',
   };
+
+  if (newError.name || newError.email || newError.message) {
+    setError(newError);
+    return;
+  }
+
+  try {
+    const res = await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+    if (data.success) {
+      setSubmitted(true);
+      setFormData({ name: '', email: '', message: '' });
+      setTimeout(() => setSubmitted(false), 3000);
+    }
+  } catch (err) {
+    console.error(err);
+  }
+};
 
   const containerVariants = {
     hidden: { opacity: 0 },
