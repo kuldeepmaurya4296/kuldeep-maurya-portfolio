@@ -32,11 +32,11 @@ export const metadata = {
 export default function ProjectsPage() {
   const { projects } = portfolioData;
 
- 
+
 
   return (
-    <>
-   <AllProjects/>
-    </>
+    <div className="overflow-x-hidden">
+      <AllProjects />
+    </div>
   );
 }

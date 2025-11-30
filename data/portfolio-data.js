@@ -91,8 +91,8 @@ export const portfolioData = {
       subtitle: "Digital news platform with CMS & PDF newspaper viewer",
       description:
         "A powerful news portal built using Next.js and Sanity CMS. Includes category-based news rendering, article pages, animated transitions, and PDF newspaper viewer.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/swatantra-home.png",
+      bannerImage: "/projects/swatantra-banner.png",
       technologies: ["Next.js", "Sanity CMS", "Tailwind CSS", "Framer Motion", "PDF Viewer"],
       problem:
         "The news agency needed a modern digital platform to publish news, articles, and daily PDF editions quickly.",
@@ -103,7 +103,7 @@ export const portfolioData = {
         "Implemented animations using Framer Motion",
         "Optimized SEO with dynamic routing",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      screenshots: ["/projects/swatantra-home.png", "/projects/swatantra-post.png", "/projects/swatantra-share.png",  "/projects/swatantra-subs.png",  "/projects/swatantra-pdf.png"],
       liveLink: "https://swatantra-india-news.vercel.app/",
       githubLink: null
     },
@@ -114,8 +114,8 @@ export const portfolioData = {
       subtitle: "Premium modern landing page template",
       description:
         "A high-quality, modern, and animated landing page template built with Next.js. Designed for marketing, startups, and agency websites with smooth UI motion.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/spinx-home.png",
+      bannerImage: "/projects/spinx-banner.png",
       technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
       problem:
         "The company needed a reusable landing page template to quickly develop modern websites for clients.",
@@ -126,7 +126,7 @@ export const portfolioData = {
         "Optimized layout for high-speed performance",
         "Ensured mobile-first responsive design",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      screenshots: ["/projects/spinx-home.png", "/projects/spinx-c.png", "/projects/spinx-s.png","/projects/spinx-we.png"],
       liveLink: "https://spinx-template.vercel.app/",
       githubLink: "https://github.com/spideyO0/spinx-template"
     },
@@ -137,8 +137,8 @@ export const portfolioData = {
       subtitle: "Corporate landing page with Slice Machine integration",
       description:
         "A commercial uPVC brand website designed and developed using Next.js and Prismic Slice Machine for structured and dynamic content sections.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/nova-home.png",
+      bannerImage: "/projects/nova-banner.png",
       technologies: ["Next.js", "Prismic", "Slice Machine", "Tailwind CSS"],
       problem:
         "The client needed a flexible commercial website where components could be added or edited through Prismic CMS.",
@@ -149,7 +149,7 @@ export const portfolioData = {
         "Optimized for high performance on Vercel",
         "Ensured device-friendly responsive layout",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      screenshots: ["/projects/nova-home.png", "/projects/nova-a.png", "/projects/nova-b.png","/projects/nova-c.png"],
       liveLink: "https://generic-web-page.vercel.app/",
       githubLink: "https://github.com/spideyO0/novaupvc-landingpage-slicemachine"
     },
@@ -171,7 +171,7 @@ export const portfolioData = {
         "Fixed responsive and styling issues",
         "Worked on frontend API integrations",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      // screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
       liveLink: null,
       githubLink: "https://github.com/mehul7169/tulip-lms"
     },
@@ -195,7 +195,7 @@ export const portfolioData = {
       ],
       screenshots: ["/ecommerce-website.jpg"],
       liveLink: null,
-      githubLink: "https://github.com/kuldeepmaurya4296/TextSummarizer"
+      // githubLink: "https://github.com/kuldeepmaurya4296/TextSummarizer"
     },
 
     {
@@ -204,8 +204,8 @@ export const portfolioData = {
       subtitle: "React-based text utility tool",
       description:
         "My first React project that provides multiple text transformation features including uppercase, lowercase, copy text, clear text, and dark mode.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/text-utills.png",
+      bannerImage: "/projects/text-utills.png",
       technologies: ["React", "JavaScript", "Bootstrap"],
       problem:
         "Users needed a quick tool to transform and clean text directly from the browser.",
@@ -215,7 +215,7 @@ export const portfolioData = {
         "Implemented reusable functional components",
         "Made the UI clean and responsive",
       ],
-      screenshots: ["/ecommerce-website.jpg"],
+      screenshots: ["/projects/text-utills.png"],
       liveLink: "https://kuldeepmaurya4296.github.io/TextUtils-React/",
       githubLink: "https://github.com/kuldeepmaurya4296/TextUtils-React/"
     }
