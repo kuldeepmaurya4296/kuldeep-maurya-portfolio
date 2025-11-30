@@ -45,8 +45,8 @@ export const portfolioData = {
       subtitle: "Modern business website with animations & CMS integration",
       description:
         "A fully responsive corporate website built for Flourishers Edge Pvt. Ltd. using Next.js, Tailwind CSS, and Framer Motion. Designed with clean UI/UX and powered by Sanity CMS for dynamic content management.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/FE-home.png",
+      bannerImage: "/projects/FE-banner.png",
       technologies: ["Next.js", "React", "Tailwind CSS", "Sanity CMS", "Framer Motion", "Vercel"],
       problem:
         "The company needed a modern, fast, animation-rich corporate website with full control over content through a CMS.",
@@ -57,7 +57,7 @@ export const portfolioData = {
         "Optimized performance using Next.js Server Components",
         "Implemented modular and scalable components",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      screenshots: ["/projects/FE-home.png",'/projects/FE-about.png', "/projects/FE-careers.png",'/projects/FE-projects.png', "/projects/FE-services.png","/projects/FE-contact.png"],
       liveLink: "https://www.flourishersedge.com/",
       githubLink: null
     },
@@ -68,8 +68,8 @@ export const portfolioData = {
       subtitle: "Complete school information & management system",
       description:
         "A complete school website built with the MERN stack including notices, events, dynamic pages, and clean responsive UI. Ensures easy access to academic information for parents and students.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
+      image: "/projects/hind-home.png",
+      bannerImage: "/projects/hind-banner.png",
       technologies: ["Next.js", "React", "MongoDB", "Node.js", "Tailwind CSS", "Framer Motion"],
       problem:
         "The school needed a centralized and fast website where parents and students could access information easily.",
@@ -80,7 +80,7 @@ export const portfolioData = {
         "Improved SEO with server-rendered pages",
         "Made the entire platform fully responsive",
       ],
-      screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+      screenshots: ["/projects/hind-home.png", "/projects/hind-about.png", "/projects/hind-faq.png","/projects/hind-contact.png"],
       liveLink: "https://www.hindconventschool.com/",
       githubLink: null
     },
