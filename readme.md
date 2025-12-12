@@ -35,46 +35,53 @@ I have developed real-world projects like a Real-Time Chat App, Admin Panel with
 
 ## 💻 Projects
 
-<!-- ### 1. Flourishers Edge Corporate Website
-**Subtitle:** Modern business website with animations & CMS integration  
-**Technologies:** Next.js, React, Tailwind CSS, Sanity CMS, Framer Motion, Vercel  
-**Description:** A fully responsive corporate website with dynamic CMS content.  
-**Live:** [Visit Project](https://www.flourishersedge.com/)  
+### 1. Large-Scale Corporate Web Platform
+**Subtitle:** Modern business website with advanced animations & CMS integration
+**Description:** A high-performance, fully responsive corporate web platform developed using **Next.js**, **Tailwind CSS**, and **Framer Motion**. This project focused on integrating a dynamic content management system (Sanity CMS) and implementing sophisticated motion design to create a scalable, professional, and engaging online presence.
+**Technologies:** Next.js, React, Tailwind CSS, Sanity CMS, Framer Motion, Vercel
+**Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name and live URL have been removed.
 
-### 2. Hind Convent School Website
-**Subtitle:** Complete school information & management system  
-**Technologies:** Next.js, React, MongoDB, Node.js, Tailwind CSS, Framer Motion  
-**Description:** School website providing notices, events, dynamic pages, and responsive UI.  
-**Live:** [Visit Project](https://www.hindconventschool.com/)
+### 2. K-12 Educational Platform
+**Subtitle:** Comprehensive school information & management system
+**Description:** A complete educational website built with the **MERN stack** (Next.js/React, MongoDB, Node.js). The platform is a central resource for academic information, featuring dynamic sections for notices, events, and essential school details, all designed with a clean, responsive UI for easy access by parents and students.
+**Technologies:** Next.js, React, MongoDB, Node.js, Tailwind CSS, Framer Motion
+**Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name and live URL have been removed.
 
-### 3. Swatantra India News Portal
-**Subtitle:** Digital news platform with CMS & PDF newspaper viewer  
-**Technologies:** Next.js, Sanity CMS, Tailwind CSS, Framer Motion, PDF Viewer  
-**Live:** [Visit Project](https://swatantra-india-news.vercel.app/) -->
+### 3. Regional Digital News Portal
+**Subtitle:** High-volume news platform with CMS and E-Paper viewer
+**Description:** A robust digital news and media platform utilizing **Next.js** and **Sanity CMS**. Key features include category-based content rendering, efficient article pages, and a custom **PDF newspaper viewer** for daily e-editions. The architecture prioritizes rapid content delivery and high scalability.
+**Technologies:** Next.js, Sanity CMS, Tailwind CSS, Framer Motion, PDF Viewer
+**Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name and live URL have been removed.
 
 ### 4. Spinx Template
-**Subtitle:** Premium modern landing page template  
-**Technologies:** Next.js, React, Tailwind CSS, Framer Motion, Vercel  
+**Subtitle:** Premium modern landing page template
+**Description:** A high-quality, reusable, and highly animated landing page template developed using the **Next.js** framework. This asset is designed for immediate deployment by marketing teams and agencies, featuring a professional UI and smooth motion design principles.
+**Technologies:** Next.js, React, Tailwind CSS, Framer Motion, Vercel
 **Live:** [Visit Project](https://spinx-template.vercel.app/) | **GitHub:** [View Repo](https://github.com/spideyO0/spinx-template)
 
-### 5. Nova uPVC Commercial Website
-**Technologies:** Next.js, Prismic, Slice Machine, Tailwind CSS  
-**Live:** [Visit Project](https://generic-web-page.vercel.app/) | **GitHub:** [View Repo](https://github.com/spideyO0/novaupvc-landingpage-slicemachine)
+### 5. Specialized Commercial Product Landing Page
+**Subtitle:** Corporate landing page with Headless CMS integration (Prismic)
+**Description:** A high-end commercial landing page developed with **Next.js** and integrated with **Prismic's Slice Machine**. This architecture provides marketing teams with maximum flexibility to build and edit page layouts dynamically using content 'slices', ensuring a premium look and effortless content management.
+**Technologies:** Next.js, Prismic, Slice Machine, Tailwind CSS
+**Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name and live URL have been removed.
 
-<!-- ### 6. Tulip LMS (Learning Management System)
-**Technologies:** React, Next.js, Tailwind CSS, Node.js  
-**GitHub:** [View Repo](https://github.com/mehul7169/tulip-lms) -->
+### 6. Enterprise Learning Management System (LMS)
+**Subtitle:** EdTech LMS platform (Frontend Contributor)
+**Description:** A complex Learning Management System built for an educational technology company. My role focused on frontend development, including refining the UI layout, enhancing component structures, fixing responsive issues, and executing API integrations to create a professional and organized interface.
+**Technologies:** React, Next.js, Tailwind CSS, Node.js
+**GitHub:** [View Repo](https://github.com/mehul7169/tulip-lms)
+**Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name has been removed.
 
-### 7. Text Summarizer
-**Technologies:** Python, Flask, HTML, CSS  
-**GitHub:** [View Repo](https://github.com/kuldeepmaurya4296/TextSummarizer)
+### 7. AI-Powered Text Summarizer
+**Subtitle:** NLP-based text summary generator
+**Description:** A focused mini-project utilizing **Python Flask** for Natural Language Processing (NLP) to efficiently summarize large textual content. It includes a minimal, custom UI built with HTML/CSS, offering fast and accurate real-time summary generation for research and productivity.
+**Technologies:** Python, Flask, HTML, CSS, NLP
 
 ### 8. TextUtils
-**Technologies:** React, JavaScript, Bootstrap  
+**Subtitle:** React-based text utility and transformation tool
+**Description:** My foundational project using **React.js**, providing a suite of essential text transformation features. Key utilities include case conversion, text cleaning, and a user-friendly dark mode toggle, demonstrating core **React** concepts and responsive design using **Bootstrap**.
+**Technologies:** React, JavaScript, Bootstrap
 **Live:** [Visit Project](https://kuldeepmaurya4296.github.io/TextUtils-React/) | **GitHub:** [View Repo](https://github.com/kuldeepmaurya4296/TextUtils-React/)
-
----
-
 ## 📄 Resume
 [Download My Resume](./public/resume.pdf)
 

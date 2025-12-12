@@ -7,7 +7,7 @@ export const portfolioData = {
     cta: "View My Work",
     image: "/kuldeep2.png",
   },
-  files:{
+  files: {
     resume: '/resume.pdf',
   },
   about: {
@@ -38,188 +38,220 @@ export const portfolioData = {
     // Programming
     { name: "Java", level: 85, category: "Programming" },
   ],
-  projects: [
-    // {
-    //   id: 1,
-    //   title: "Flourishers Edge Corporate Website",
-    //   subtitle: "Modern business website with animations & CMS integration",
-    //   description:
-    //     "A fully responsive corporate website built for Flourishers Edge Pvt. Ltd. using Next.js, Tailwind CSS, and Framer Motion. Designed with clean UI/UX and powered by Sanity CMS for dynamic content management.",
-    //   image: "/projects/FE-home.png",
-    //   bannerImage: "/projects/FE-banner.png",
-    //   technologies: ["Next.js", "React", "Tailwind CSS", "Sanity CMS", "Framer Motion", "Vercel"],
-    //   problem:
-    //     "The company needed a modern, fast, animation-rich corporate website with full control over content through a CMS.",
-    //   solutions: [
-    //     "Developed a fully responsive UI using Tailwind CSS",
-    //     "Added smooth page animations with Framer Motion",
-    //     "Integrated Sanity CMS for real-time content updates",
-    //     "Optimized performance using Next.js Server Components",
-    //     "Implemented modular and scalable components",
-    //   ],
-    //   screenshots: ["/projects/FE-home.png",'/projects/FE-about.png', "/projects/FE-careers.png",'/projects/FE-projects.png', "/projects/FE-services.png","/projects/FE-contact.png"],
-    //   liveLink: "https://www.flourishersedge.com/",
-    //   githubLink: null
-    // },
+ projects: [
+  {
+    id: 1,
+    title: "Modern Corporate Web Platform",
+    subtitle: "High-performance business website with animations & CMS integration",
+    description:
+      "A highly responsive and visually rich corporate web platform built using Next.js and Tailwind CSS. The website features smooth animations using Framer Motion, structured layouts, fast rendering, and a headless CMS for dynamic content updates. This project focuses on delivering a premium UI/UX experience with optimized loading speed, SEO-friendly architecture, and scalable components. The entire platform is designed to empower the internal content team to manage pages, services, and updates independently without developer involvement, ensuring long-term maintainability and flexibility.",
+    image: "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    bannerImage: "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "CMS", "Vercel"],
+    problem:
+      "The organization needed a modern and feature-rich corporate website that could deliver high performance, smooth animations, and dynamic content management while maintaining a premium brand presence.",
+    solutions: [
+      "Developed a complete UI system with reusable and scalable components",
+      "Integrated headless CMS for easy content management without developer dependency",
+      "Implemented smooth animations using Framer Motion for interactive UI",
+      "Improved SEO using server-side rendering and optimized metadata",
+      "Enhanced site performance using image optimization and caching techniques",
+      "Created a clean, consistent, and professional design suitable for corporate branding"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1487014679447-9f8336841d58",
+    //   "https://images.unsplash.com/photo-1550439062-609e1531270e"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    // {
-    //   id: 2,
-    //   title: "Hind Convent School Website",
-    //   subtitle: "Complete school information & management system",
-    //   description:
-    //     "A complete school website built with the MERN stack including notices, events, dynamic pages, and clean responsive UI. Ensures easy access to academic information for parents and students.",
-    //   image: "/projects/hind-home.png",
-    //   bannerImage: "/projects/hind-banner.png",
-    //   technologies: ["Next.js", "React", "MongoDB", "Node.js", "Tailwind CSS", "Framer Motion"],
-    //   problem:
-    //     "The school needed a centralized and fast website where parents and students could access information easily.",
-    //   solutions: [
-    //     "Designed a modern and clean UI with Tailwind CSS",
-    //     "Implemented smooth animations using Framer Motion",
-    //     "Built dynamic sections using MongoDB",
-    //     "Improved SEO with server-rendered pages",
-    //     "Made the entire platform fully responsive",
-    //   ],
-    //   screenshots: ["/projects/hind-home.png", "/projects/hind-about.png", "/projects/hind-faq.png","/projects/hind-contact.png"],
-    //   liveLink: "https://www.hindconventschool.com/",
-    //   githubLink: null
-    // },
+  {
+    id: 2,
+    title: "Educational Institution Web Portal",
+    subtitle: "Complete school information & responsive academic platform",
+    description:
+      "A centralized, informative, and responsive school website created to help parents and students access academic information easily. The portal includes structured pages for notices, events, curriculum, faculty, facilities, FAQs, and contact details. Built using the MERN stack and Next.js for hybrid rendering, the project focuses on clarity, accessibility, and mobile-first design. It also includes smooth UI transitions and optimized loading times. Designed to be intuitive, the platform helps educational institutions create a strong digital presence and keeps stakeholders updated effortlessly.",
+    image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+    bannerImage: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
+    technologies: ["Next.js", "React", "MongoDB", "Node.js", "Tailwind CSS", "Framer Motion"],
+    problem:
+      "The institution needed a centralized digital platform to share academic updates, notices, events, and essential student resources instantly in an organized and accessible way.",
+    solutions: [
+      "Developed a clean and responsive UI optimized for parents and students",
+      "Built dedicated sections for academic updates and campus-related information",
+      "Integrated MongoDB for dynamic data handling and structured content",
+      "Implemented smooth transitions using Framer Motion for better UX",
+      "Improved page visibility with SEO-friendly server-side rendering",
+      "Ensured fast loading performance across all device sizes"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+    //   "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    // {
-    //   id: 3,
-    //   title: "Swatantra India News Portal",
-    //   subtitle: "Digital news platform with CMS & PDF newspaper viewer",
-    //   description:
-    //     "A powerful news portal built using Next.js and Sanity CMS. Includes category-based news rendering, article pages, animated transitions, and PDF newspaper viewer.",
-    //   image: "/projects/swatantra-home.png",
-    //   bannerImage: "/projects/swatantra-banner.png",
-    //   technologies: ["Next.js", "Sanity CMS", "Tailwind CSS", "Framer Motion", "PDF Viewer"],
-    //   problem:
-    //     "The news agency needed a modern digital platform to publish news, articles, and daily PDF editions quickly.",
-    //   solutions: [
-    //     "Integrated Sanity CMS for category-based news management",
-    //     "Added a fast PDF viewer for digital newspapers",
-    //     "Used Next.js ISR for real-time content updates",
-    //     "Implemented animations using Framer Motion",
-    //     "Optimized SEO with dynamic routing",
-    //   ],
-    //   screenshots: ["/projects/swatantra-home.png", "/projects/swatantra-post.png", "/projects/swatantra-share.png",  "/projects/swatantra-subs.png",  "/projects/swatantra-pdf.png"],
-    //   liveLink: "https://swatantra-india-news.vercel.app/",
-    //   githubLink: null
-    // },
+  {
+    id: 3,
+    title: "Digital News & Article Publishing Portal",
+    subtitle: "Dynamic news website with CMS & e-paper viewer",
+    description:
+      "A modern and high-speed digital news platform built using Next.js and a headless CMS. The platform supports category-based news publishing, dynamic article pages, fast routing, and structured metadata for improved SEO. It also includes a built-in PDF viewer that allows users to read digital newspaper editions directly on the website. With smooth animations, high-performance rendering, and clean typography, this news portal provides an engaging and professional reading experience, while allowing editors to publish content instantly.",
+    image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    bannerImage: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    technologies: ["Next.js", "Tailwind CSS", "CMS", "Framer Motion", "PDF Viewer"],
+    problem:
+      "The agency needed a fast and flexible news publishing system with support for category-wise articles and digital newspaper uploads.",
+    solutions: [
+      "Integrated headless CMS for quick news and article publishing",
+      "Added dynamic article routing with SEO-friendly structures",
+      "Implemented a PDF viewer for digital newspaper editions",
+      "Designed smooth animated transitions for a refined reading experience",
+      "Used ISR for near real-time data updates and low server load",
+      "Optimized images, metadata, and layouts for high performance"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+    //   "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    {
-      id: 4,
-      title: "Spinx Template",
-      subtitle: "Premium modern landing page template",
-      description:
-        "A high-quality, modern, and animated landing page template built with Next.js. Designed for marketing, startups, and agency websites with smooth UI motion.",
-      image: "/projects/spinx-home.png",
-      bannerImage: "/projects/spinx-banner.png",
-      technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
-      problem:
-        "The company needed a reusable landing page template to quickly develop modern websites for clients.",
-      solutions: [
-        "Created a pixel-perfect UI using Tailwind CSS",
-        "Added component-level animations with Framer Motion",
-        "Structured reusable sections for easy customization",
-        "Optimized layout for high-speed performance",
-        "Ensured mobile-first responsive design",
-      ],
-      screenshots: ["/projects/spinx-home.png", "/projects/spinx-c.png", "/projects/spinx-s.png","/projects/spinx-we.png"],
-      liveLink: "https://spinx-template.vercel.app/",
-      githubLink: "https://github.com/spideyO0/spinx-template"
-    },
+  {
+    id: 4,
+    title: "Spinx Template",
+    subtitle: "Premium animated landing page template",
+    description:
+      "A premium-quality landing page template designed for marketing agencies, startups, and modern businesses. Built with Next.js and Tailwind CSS, this template provides smooth animations, responsive sections, and a highly customizable layout. It includes multiple prebuilt sections such as features, services, testimonials, call-to-action blocks, and hero banners. The template focuses on visual appeal, modularity, and performance optimization, helping developers quickly build stunning websites without starting from scratch.",
+    image: "/projects/spinx-home.png",
+    bannerImage: "/projects/spinx-banner.png",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
+    problem:
+      "Developers and agencies needed a reusable, highly customizable landing page template that could be quickly adapted for different clients.",
+    solutions: [
+      "Created a modular component-based structure for customization",
+      "Designed a visually premium interface with clean spacing and alignment",
+      "Added smooth animations with Framer Motion to enhance UX",
+      "Optimized layout for high performance and faster load speed",
+      "Ensured mobile-first design with full responsiveness",
+      "Provided ready-made sections for faster project delivery"
+    ],
+    // screenshots: [
+    //   "/projects/spinx-home.png",
+    //   "/projects/spinx-c.png"
+    // ],
+    liveLink: "https://spinx-template.vercel.app/",
+    githubLink: "https://github.com/spideyO0/spinx-template"
+  },
 
-    {
-      id: 5,
-      title: "Nova uPVC Commercial Website",
-      subtitle: "Corporate landing page with Slice Machine integration",
-      description:
-        "A commercial uPVC brand website designed and developed using Next.js and Prismic Slice Machine for structured and dynamic content sections.",
-      image: "/projects/nova-home.png",
-      bannerImage: "/projects/nova-banner.png",
-      technologies: ["Next.js", "Prismic", "Slice Machine", "Tailwind CSS"],
-      problem:
-        "The client needed a flexible commercial website where components could be added or edited through Prismic CMS.",
-      solutions: [
-        "Designed a clean and premium commercial UI",
-        "Implemented custom Prismic Slices for dynamic content",
-        "Built reusable marketing components",
-        "Optimized for high performance on Vercel",
-        "Ensured device-friendly responsive layout",
-      ],
-      screenshots: ["/projects/nova-home.png", "/projects/nova-a.png", "/projects/nova-b.png","/projects/nova-c.png"],
-      liveLink: "https://generic-web-page.vercel.app/",
-      // githubLink: "https://github.com/spideyO0/novaupvc-landingpage-slicemachine"
-    },
+  {
+    id: 5,
+    title: "uPVC Product Landing Platform",
+    subtitle: "Commercial landing page with CMS slice integration",
+    description:
+      "A product-focused commercial landing platform featuring customizable content blocks powered by Prismic Slice Machine. Designed specifically for showcasing product details, brand highlights, and commercial service offerings. The website includes reusable slice components, responsive layouts, structured typography, and a clean visual hierarchy. It enables marketing teams to update content dynamically without coding. The platform is optimized for fast rendering, consistent layout behavior, and high performance across all devices.",
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+    bannerImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e",
+    technologies: ["Next.js", "Prismic CMS", "Slice Machine", "Tailwind CSS"],
+    problem:
+      "The brand needed a flexible landing platform where content blocks could be updated or rearranged through a CMS without technical assistance.",
+    solutions: [
+      "Developed modular slices in Prismic for easy content editing",
+      "Created a premium UI layout that aligns with commercial branding",
+      "Implemented reusable marketing sections for scalability",
+      "Ensured fast and optimized loading using Next.js features",
+      "Improved responsiveness to make it functional on all devices",
+      "Added structured layouts for clear and persuasive product presentation"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1506765515384-028b60a970df"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    // {
-    //   id: 6,
-    //   title: "Tulip LMS (Learning Management System)",
-    //   subtitle: "EdTech LMS platform (contributed)",
-    //   description:
-    //     "A learning management system built for an education company. I contributed in UI development, layout fixing, and frontend integration.",
-    //   image: "/ecommerce-website.jpg",
-    //   bannerImage: "/ecommerce-website.jpg",
-    //   technologies: ["React", "Next.js", "Tailwind CSS", "Node.js"],
-    //   problem:
-    //     "The EdTech company required an organized interface for courses, students, and progress tracking.",
-    //   solutions: [
-    //     "Improved UI layout for dashboards",
-    //     "Enhanced component structures",
-    //     "Fixed responsive and styling issues",
-    //     "Worked on frontend API integrations",
-    //   ],
-    //   // screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
-    //   liveLink: null,
-    //   githubLink: "https://github.com/mehul7169/tulip-lms"
-    // },
+  {
+    id: 6,
+    title: "Learning Management System (LMS)",
+    subtitle: "Dashboard UI & frontend integration (contribution)",
+    description:
+      "Contributed to the UI and frontend logic of a Learning Management System designed for course management, student progress tracking, and instructor modules. My work involved designing responsive layouts, building structured components, optimizing UI behavior, and integrating APIs for dynamic content flow. The focus was to create a clean, intuitive, and accessible interface that improves user efficiency and enhances the overall system usability.",
+    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296",
+    bannerImage: "https://images.unsplash.com/photo-1556157382-97eda2d62296",
+    technologies: ["React", "Next.js", "Tailwind CSS", "Node.js"],
+    problem:
+      "The organization needed a structured LMS interface that was easy to use for students, instructors, and admins.",
+    solutions: [
+      "Improved dashboard layouts for better visual structure",
+      "Designed responsive UI components for cross-device usability",
+      "Worked on frontend API integration for dynamic course data",
+      "Created reusable components for a scalable architecture",
+      "Enhanced the overall user experience with clean UI patterns",
+      "Fixed layout bugs and styling inconsistencies across modules"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1587614382346-4ec70e388b28"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    {
-      id: 7,
-      title: "Text Summarizer",
-      subtitle: "AI-based text summary generator",
-      description:
-        "A mini project built using Python Flask for summarizing large text content. Includes a minimal UI using HTML, CSS and supports real-time summary generation.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
-      technologies: ["Python", "Flask", "HTML", "CSS"],
-      problem:
-        "Students needed a lightweight tool to summarize large content quickly.",
-      solutions: [
-        "Built a simple Flask backend for summarization",
-        "Created a clean and minimal frontend",
-        "Implemented character & sentence extraction",
-        "Added responsive layout",
-      ],
-      screenshots: ["/ecommerce-website.jpg"],
-      liveLink: null,
-      // githubLink: "https://github.com/kuldeepmaurya4296/TextSummarizer"
-    },
+  {
+    id: 7,
+    title: "Text Summarizer",
+    subtitle: "AI-powered text summary generator",
+    description:
+      "A lightweight and intuitive text summarization tool built using Python Flask. The project allows users to input long paragraphs and instantly receive concise summaries. It includes a clean frontend interface made with HTML & CSS and backend logic for extracting key information. This tool is ideal for students and readers who want quick insights from long content. It is optimized for fast processing, minimal UI complexity, and straightforward usability.",
+    image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29",
+    bannerImage: "https://images.unsplash.com/photo-1484417894907-623942c8ee29",
+    technologies: ["Python", "Flask", "HTML", "CSS"],
+    problem:
+      "Students needed a simple and quick tool to generate summaries from large pieces of text without manual effort.",
+    solutions: [
+      "Developed a Flask backend to process large inputs efficiently",
+      "Designed a simple and clean UI for easy usage",
+      "Implemented logic for extracting key sentences based on frequency",
+      "Added character and word limit handling for smooth input testing",
+      "Ensured responsive UI using basic CSS styling",
+      "Provided real-time output for instant readability"
+    ],
+    // screenshots: [
+    //   "https://images.unsplash.com/photo-1556157382-97eda2d62296"
+    // ],
+    liveLink: null,
+    githubLink: null
+  },
 
-    {
-      id: 8,
-      title: "TextUtils",
-      subtitle: "React-based text utility tool",
-      description:
-        "My first React project that provides multiple text transformation features including uppercase, lowercase, copy text, clear text, and dark mode.",
-      image: "/projects/text-utills.png",
-      bannerImage: "/projects/text-utills.png",
-      technologies: ["React", "JavaScript", "Bootstrap"],
-      problem:
-        "Users needed a quick tool to transform and clean text directly from the browser.",
-      solutions: [
-        "Built fast text transformation utilities",
-        "Added dark/light mode switching",
-        "Implemented reusable functional components",
-        "Made the UI clean and responsive",
-      ],
-      screenshots: ["/projects/text-utills.png"],
-      liveLink: "https://kuldeepmaurya4296.github.io/TextUtils-React/",
-      githubLink: "https://github.com/kuldeepmaurya4296/TextUtils-React/"
-    }
-  ],
+  {
+    id: 8,
+    title: "TextUtils",
+    subtitle: "React-based text transformation tool",
+    description:
+      "A beginner-friendly yet efficient text utility tool built using React. It provides multiple features including uppercase/lowercase conversion, text copying, clearing text, and dark/light mode switching. The UI is designed using Bootstrap to ensure simplicity and responsiveness. This project helped build strong fundamentals in functional components, state management, event handling, and React routing. It's a fast, user-friendly, and practical tool for everyday text manipulation tasks.",
+    image: "/projects/text-utills.png",
+    bannerImage: "/projects/text-utills.png",
+    technologies: ["React", "JavaScript", "Bootstrap"],
+    problem:
+      "Users needed a quick and easy-to-use tool to format and manipulate text directly from a web browser.",
+    solutions: [
+      "Developed text transformation utilities like uppercase/lowercase conversion",
+      "Added dark/light mode for better readability",
+      "Implemented copy-to-clipboard functionality",
+      "Created reusable functional components for clean architecture",
+      "Ensured fast performance using React state updates",
+      "Designed a responsive interface using Bootstrap"
+    ],
+    // screenshots: [
+    //   "/projects/text-utills.png"
+    // ],
+    liveLink: "https://kuldeepmaurya4296.github.io/TextUtils-React/",
+    githubLink: "https://github.com/kuldeepmaurya4296/TextUtils-React/"
+  }
+],
+
 
 
   services: [
@@ -275,25 +307,25 @@ export const portfolioData = {
   ],
 
   education: [
-  {
-    school: "Technocrats Institute of Technology",
-    degree: "B.Tech in Computer Science & Engineering – AIML",
-    year: "2020 - 2024",
-    details: "CGPA: 88%",
-  },
-  {
-    school: "Govt. Model H S School, Sitlaha, Rewa",
-    degree: "Higher Secondary (Class 12th)",
-    year: "2020",
-    details: "Marks: 83.6%",
-  },
-  {
-    school: "Govt. Model H S School, Sitlaha, Rewa",
-    degree: "High School (Class 10th)",
-    year: "2018",
-    details: "Marks: 87.7%",
-  },
-],
+    {
+      school: "Technocrats Institute of Technology",
+      degree: "B.Tech in Computer Science & Engineering – AIML",
+      year: "2020 - 2024",
+      details: "CGPA: 88%",
+    },
+    {
+      school: "Govt. Model H S School, Sitlaha, Rewa",
+      degree: "Higher Secondary (Class 12th)",
+      year: "2020",
+      details: "Marks: 83.6%",
+    },
+    {
+      school: "Govt. Model H S School, Sitlaha, Rewa",
+      degree: "High School (Class 10th)",
+      year: "2018",
+      details: "Marks: 87.7%",
+    },
+  ],
 
   freelancing: {
     title: "Available for Freelance Projects",
