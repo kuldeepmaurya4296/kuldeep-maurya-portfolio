@@ -39,74 +39,74 @@ export const portfolioData = {
     { name: "Java", level: 85, category: "Programming" },
   ],
   projects: [
-    {
-      id: 1,
-      title: "Flourishers Edge Corporate Website",
-      subtitle: "Modern business website with animations & CMS integration",
-      description:
-        "A fully responsive corporate website built for Flourishers Edge Pvt. Ltd. using Next.js, Tailwind CSS, and Framer Motion. Designed with clean UI/UX and powered by Sanity CMS for dynamic content management.",
-      image: "/projects/FE-home.png",
-      bannerImage: "/projects/FE-banner.png",
-      technologies: ["Next.js", "React", "Tailwind CSS", "Sanity CMS", "Framer Motion", "Vercel"],
-      problem:
-        "The company needed a modern, fast, animation-rich corporate website with full control over content through a CMS.",
-      solutions: [
-        "Developed a fully responsive UI using Tailwind CSS",
-        "Added smooth page animations with Framer Motion",
-        "Integrated Sanity CMS for real-time content updates",
-        "Optimized performance using Next.js Server Components",
-        "Implemented modular and scalable components",
-      ],
-      screenshots: ["/projects/FE-home.png",'/projects/FE-about.png', "/projects/FE-careers.png",'/projects/FE-projects.png', "/projects/FE-services.png","/projects/FE-contact.png"],
-      liveLink: "https://www.flourishersedge.com/",
-      githubLink: null
-    },
+    // {
+    //   id: 1,
+    //   title: "Flourishers Edge Corporate Website",
+    //   subtitle: "Modern business website with animations & CMS integration",
+    //   description:
+    //     "A fully responsive corporate website built for Flourishers Edge Pvt. Ltd. using Next.js, Tailwind CSS, and Framer Motion. Designed with clean UI/UX and powered by Sanity CMS for dynamic content management.",
+    //   image: "/projects/FE-home.png",
+    //   bannerImage: "/projects/FE-banner.png",
+    //   technologies: ["Next.js", "React", "Tailwind CSS", "Sanity CMS", "Framer Motion", "Vercel"],
+    //   problem:
+    //     "The company needed a modern, fast, animation-rich corporate website with full control over content through a CMS.",
+    //   solutions: [
+    //     "Developed a fully responsive UI using Tailwind CSS",
+    //     "Added smooth page animations with Framer Motion",
+    //     "Integrated Sanity CMS for real-time content updates",
+    //     "Optimized performance using Next.js Server Components",
+    //     "Implemented modular and scalable components",
+    //   ],
+    //   screenshots: ["/projects/FE-home.png",'/projects/FE-about.png', "/projects/FE-careers.png",'/projects/FE-projects.png', "/projects/FE-services.png","/projects/FE-contact.png"],
+    //   liveLink: "https://www.flourishersedge.com/",
+    //   githubLink: null
+    // },
 
-    {
-      id: 2,
-      title: "Hind Convent School Website",
-      subtitle: "Complete school information & management system",
-      description:
-        "A complete school website built with the MERN stack including notices, events, dynamic pages, and clean responsive UI. Ensures easy access to academic information for parents and students.",
-      image: "/projects/hind-home.png",
-      bannerImage: "/projects/hind-banner.png",
-      technologies: ["Next.js", "React", "MongoDB", "Node.js", "Tailwind CSS", "Framer Motion"],
-      problem:
-        "The school needed a centralized and fast website where parents and students could access information easily.",
-      solutions: [
-        "Designed a modern and clean UI with Tailwind CSS",
-        "Implemented smooth animations using Framer Motion",
-        "Built dynamic sections using MongoDB",
-        "Improved SEO with server-rendered pages",
-        "Made the entire platform fully responsive",
-      ],
-      screenshots: ["/projects/hind-home.png", "/projects/hind-about.png", "/projects/hind-faq.png","/projects/hind-contact.png"],
-      liveLink: "https://www.hindconventschool.com/",
-      githubLink: null
-    },
+    // {
+    //   id: 2,
+    //   title: "Hind Convent School Website",
+    //   subtitle: "Complete school information & management system",
+    //   description:
+    //     "A complete school website built with the MERN stack including notices, events, dynamic pages, and clean responsive UI. Ensures easy access to academic information for parents and students.",
+    //   image: "/projects/hind-home.png",
+    //   bannerImage: "/projects/hind-banner.png",
+    //   technologies: ["Next.js", "React", "MongoDB", "Node.js", "Tailwind CSS", "Framer Motion"],
+    //   problem:
+    //     "The school needed a centralized and fast website where parents and students could access information easily.",
+    //   solutions: [
+    //     "Designed a modern and clean UI with Tailwind CSS",
+    //     "Implemented smooth animations using Framer Motion",
+    //     "Built dynamic sections using MongoDB",
+    //     "Improved SEO with server-rendered pages",
+    //     "Made the entire platform fully responsive",
+    //   ],
+    //   screenshots: ["/projects/hind-home.png", "/projects/hind-about.png", "/projects/hind-faq.png","/projects/hind-contact.png"],
+    //   liveLink: "https://www.hindconventschool.com/",
+    //   githubLink: null
+    // },
 
-    {
-      id: 3,
-      title: "Swatantra India News Portal",
-      subtitle: "Digital news platform with CMS & PDF newspaper viewer",
-      description:
-        "A powerful news portal built using Next.js and Sanity CMS. Includes category-based news rendering, article pages, animated transitions, and PDF newspaper viewer.",
-      image: "/projects/swatantra-home.png",
-      bannerImage: "/projects/swatantra-banner.png",
-      technologies: ["Next.js", "Sanity CMS", "Tailwind CSS", "Framer Motion", "PDF Viewer"],
-      problem:
-        "The news agency needed a modern digital platform to publish news, articles, and daily PDF editions quickly.",
-      solutions: [
-        "Integrated Sanity CMS for category-based news management",
-        "Added a fast PDF viewer for digital newspapers",
-        "Used Next.js ISR for real-time content updates",
-        "Implemented animations using Framer Motion",
-        "Optimized SEO with dynamic routing",
-      ],
-      screenshots: ["/projects/swatantra-home.png", "/projects/swatantra-post.png", "/projects/swatantra-share.png",  "/projects/swatantra-subs.png",  "/projects/swatantra-pdf.png"],
-      liveLink: "https://swatantra-india-news.vercel.app/",
-      githubLink: null
-    },
+    // {
+    //   id: 3,
+    //   title: "Swatantra India News Portal",
+    //   subtitle: "Digital news platform with CMS & PDF newspaper viewer",
+    //   description:
+    //     "A powerful news portal built using Next.js and Sanity CMS. Includes category-based news rendering, article pages, animated transitions, and PDF newspaper viewer.",
+    //   image: "/projects/swatantra-home.png",
+    //   bannerImage: "/projects/swatantra-banner.png",
+    //   technologies: ["Next.js", "Sanity CMS", "Tailwind CSS", "Framer Motion", "PDF Viewer"],
+    //   problem:
+    //     "The news agency needed a modern digital platform to publish news, articles, and daily PDF editions quickly.",
+    //   solutions: [
+    //     "Integrated Sanity CMS for category-based news management",
+    //     "Added a fast PDF viewer for digital newspapers",
+    //     "Used Next.js ISR for real-time content updates",
+    //     "Implemented animations using Framer Motion",
+    //     "Optimized SEO with dynamic routing",
+    //   ],
+    //   screenshots: ["/projects/swatantra-home.png", "/projects/swatantra-post.png", "/projects/swatantra-share.png",  "/projects/swatantra-subs.png",  "/projects/swatantra-pdf.png"],
+    //   liveLink: "https://swatantra-india-news.vercel.app/",
+    //   githubLink: null
+    // },
 
     {
       id: 4,
@@ -154,27 +154,27 @@ export const portfolioData = {
       githubLink: "https://github.com/spideyO0/novaupvc-landingpage-slicemachine"
     },
 
-    {
-      id: 6,
-      title: "Tulip LMS (Learning Management System)",
-      subtitle: "EdTech LMS platform (contributed)",
-      description:
-        "A learning management system built for an education company. I contributed in UI development, layout fixing, and frontend integration.",
-      image: "/ecommerce-website.jpg",
-      bannerImage: "/ecommerce-website.jpg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Node.js"],
-      problem:
-        "The EdTech company required an organized interface for courses, students, and progress tracking.",
-      solutions: [
-        "Improved UI layout for dashboards",
-        "Enhanced component structures",
-        "Fixed responsive and styling issues",
-        "Worked on frontend API integrations",
-      ],
-      // screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
-      liveLink: null,
-      githubLink: "https://github.com/mehul7169/tulip-lms"
-    },
+    // {
+    //   id: 6,
+    //   title: "Tulip LMS (Learning Management System)",
+    //   subtitle: "EdTech LMS platform (contributed)",
+    //   description:
+    //     "A learning management system built for an education company. I contributed in UI development, layout fixing, and frontend integration.",
+    //   image: "/ecommerce-website.jpg",
+    //   bannerImage: "/ecommerce-website.jpg",
+    //   technologies: ["React", "Next.js", "Tailwind CSS", "Node.js"],
+    //   problem:
+    //     "The EdTech company required an organized interface for courses, students, and progress tracking.",
+    //   solutions: [
+    //     "Improved UI layout for dashboards",
+    //     "Enhanced component structures",
+    //     "Fixed responsive and styling issues",
+    //     "Worked on frontend API integrations",
+    //   ],
+    //   // screenshots: ["/ecommerce-website.jpg", "/ecommerce-website.jpg", "/ecommerce-website.jpg"],
+    //   liveLink: null,
+    //   githubLink: "https://github.com/mehul7169/tulip-lms"
+    // },
 
     {
       id: 7,
