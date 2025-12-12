@@ -69,7 +69,6 @@ I have developed real-world projects like a Real-Time Chat App, Admin Panel with
 **Subtitle:** EdTech LMS platform (Frontend Contributor)
 **Description:** A complex Learning Management System built for an educational technology company. My role focused on frontend development, including refining the UI layout, enhancing component structures, fixing responsive issues, and executing API integrations to create a professional and organized interface.
 **Technologies:** React, Next.js, Tailwind CSS, Node.js
-**GitHub:** [View Repo](https://github.com/mehul7169/tulip-lms)
 **Note:** Due to an existing Non-Disclosure Agreement (NDA), the specific client name has been removed.
 
 ### 7. AI-Powered Text Summarizer
