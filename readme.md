@@ -35,7 +35,7 @@ I have developed real-world projects like a Real-Time Chat App, Admin Panel with
 
 ## 💻 Projects
 
-### 1. Flourishers Edge Corporate Website
+<!-- ### 1. Flourishers Edge Corporate Website
 **Subtitle:** Modern business website with animations & CMS integration  
 **Technologies:** Next.js, React, Tailwind CSS, Sanity CMS, Framer Motion, Vercel  
 **Description:** A fully responsive corporate website with dynamic CMS content.  
@@ -50,7 +50,7 @@ I have developed real-world projects like a Real-Time Chat App, Admin Panel with
 ### 3. Swatantra India News Portal
 **Subtitle:** Digital news platform with CMS & PDF newspaper viewer  
 **Technologies:** Next.js, Sanity CMS, Tailwind CSS, Framer Motion, PDF Viewer  
-**Live:** [Visit Project](https://swatantra-india-news.vercel.app/)
+**Live:** [Visit Project](https://swatantra-india-news.vercel.app/) -->
 
 ### 4. Spinx Template
 **Subtitle:** Premium modern landing page template  
@@ -61,9 +61,9 @@ I have developed real-world projects like a Real-Time Chat App, Admin Panel with
 **Technologies:** Next.js, Prismic, Slice Machine, Tailwind CSS  
 **Live:** [Visit Project](https://generic-web-page.vercel.app/) | **GitHub:** [View Repo](https://github.com/spideyO0/novaupvc-landingpage-slicemachine)
 
-### 6. Tulip LMS (Learning Management System)
+<!-- ### 6. Tulip LMS (Learning Management System)
 **Technologies:** React, Next.js, Tailwind CSS, Node.js  
-**GitHub:** [View Repo](https://github.com/mehul7169/tulip-lms)
+**GitHub:** [View Repo](https://github.com/mehul7169/tulip-lms) -->
 
 ### 7. Text Summarizer
 **Technologies:** Python, Flask, HTML, CSS  
