@@ -151,7 +151,7 @@ export const portfolioData = {
       ],
       screenshots: ["/projects/nova-home.png", "/projects/nova-a.png", "/projects/nova-b.png","/projects/nova-c.png"],
       liveLink: "https://generic-web-page.vercel.app/",
-      githubLink: "https://github.com/spideyO0/novaupvc-landingpage-slicemachine"
+      // githubLink: "https://github.com/spideyO0/novaupvc-landingpage-slicemachine"
     },
 
     // {
