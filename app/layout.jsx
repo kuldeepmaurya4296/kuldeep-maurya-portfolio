@@ -1,12 +1,15 @@
 // layout.jsx (Server Component)
 import './globals.css';
 import ThemeProvider from '../components/ThemeProvider';
+import PWAInstallPrompt from '../components/PWAInstallPrompt';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>{children}
+          <PWAInstallPrompt />
+        </ThemeProvider>
       </body>
     </html>
   );
