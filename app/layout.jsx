@@ -11,7 +11,9 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
-
 export const metadata = {
-  generator: 'v0.app'
+  generator: 'Next.js',
+  applicationName: 'Kuldeep Portfolio',
+  manifest: '/manifest.json',
+  // themeColor: '#000000'
 };
