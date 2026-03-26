@@ -1,12 +1,17 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { portfolioData } from '@/data/portfolio-data';
 import DownloadResumeButton from '../ui/DownloadResumeButton';
 
 export default function Hero() {
   const { hero, resume } = portfolioData;
+
+  const { scrollY } = useScroll();
+  const yBg = useTransform(scrollY, [0, 1000], [0, 400]);
+  const yText = useTransform(scrollY, [0, 1000], [0, 200]);
+  const yImage = useTransform(scrollY, [0, 1000], [0, 100]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -26,10 +31,10 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center justify-center bg-background pt-20 sm:pt-24 relative overflow-hidden"
     >
-      <div className="absolute inset-0 opacity-30">
+      <motion.div style={{ y: yBg }} className="absolute inset-0 opacity-30 pointer-events-none">
         <div className="absolute top-0 right-0 w-72 sm:w-96 h-72 sm:h-96 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 left-0 w-72 sm:w-96 h-72 sm:h-96 bg-primary/5 rounded-full blur-3xl" />
-      </div>
+      </motion.div>
 
       <motion.div
         variants={containerVariants}
@@ -42,6 +47,7 @@ export default function Hero() {
         {/* Content */}
         <motion.div
           variants={itemVariants}
+          style={{ y: yText }}
           className="flex-1 z-10 w-full order-2 md:order-1"
         >
           <motion.div
@@ -112,6 +118,7 @@ export default function Hero() {
         {/* Image Block */}
         <motion.div
           variants={itemVariants}
+          style={{ y: yImage }}
           className="flex-1 z-10 w-full order-1 md:order-2"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.5, ease: "easeInOut" }}

@@ -1,13 +1,15 @@
 // layout.jsx (Server Component)
 import './globals.css';
 import ThemeProvider from '../components/ThemeProvider';
+import LenisProvider from '../components/LenisProvider';
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body >
-        <ThemeProvider>{children}
-        </ThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <LenisProvider>
+          <ThemeProvider>{children}</ThemeProvider>
+        </LenisProvider>
       </body>
     </html>
   );
