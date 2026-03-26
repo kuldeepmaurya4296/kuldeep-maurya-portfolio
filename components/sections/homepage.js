@@ -19,18 +19,6 @@ import DownloadResumeButton from '../ui/DownloadResumeButton';
 
 export default function HomePage({portfolioData}) {
   const file = portfolioData?.files?.resume;
-  
-
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isLoading) {
-    return <LoadingScreen />;
-  }
 
   return (
     <>

@@ -1,14 +1,12 @@
 // layout.jsx (Server Component)
 import './globals.css';
 import ThemeProvider from '../components/ThemeProvider';
-import PWAInstallPrompt from '../components/PWAInstallPrompt';
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >
         <ThemeProvider>{children}
-          <PWAInstallPrompt />
         </ThemeProvider>
       </body>
     </html>
@@ -17,6 +15,5 @@ export default function RootLayout({ children }) {
 export const metadata = {
   generator: 'Next.js',
   applicationName: 'Kuldeep Portfolio',
-  manifest: '/manifest.json',
   // themeColor: '#000000'
 };

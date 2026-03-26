@@ -31,6 +31,7 @@ export default function About() {
             <img
               src={about.image || "/placeholder.svg"}
               alt="About me"
+              loading="lazy"
               className="rounded-2xl w-full h-auto shadow-xl"
             />
           </motion.div>

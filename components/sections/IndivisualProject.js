@@ -56,6 +56,7 @@ export default function IndivisualProject({ project }) {
           <img
             src={project.bannerImage || "/placeholder.svg"}
             alt={project.title}
+            fetchPriority="high"
             className="w-full h-full object-cover"
           />
 
@@ -209,6 +210,7 @@ export default function IndivisualProject({ project }) {
                       <img
                         src={screenshot}
                         alt={`Screenshot ${idx + 1}`}
+                        loading="lazy"
                         className="rounded-xl w-full h-auto object-cover hover:scale-[1.03] transition duration-300"
                       />
                     </motion.div>

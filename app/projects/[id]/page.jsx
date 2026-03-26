@@ -12,7 +12,7 @@ export default async function ProjectPage({ params }) {
 
   // Step 3: Find the project
   const project = portfolioData.projects.find(
-    (p) => p.id === parseInt(id, 10)
+    (p) => p.id.toString() === id.toString()
   );
   // console.log("Project:", project);
 

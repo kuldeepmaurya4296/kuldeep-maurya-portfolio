@@ -132,6 +132,7 @@ export default function Hero() {
             <img
               src={hero.image || "/kuldeep.png"}
               alt={hero.name}
+              fetchPriority="high"
               className="
           relative w-full h-auto shadow-2xl object-cover
 

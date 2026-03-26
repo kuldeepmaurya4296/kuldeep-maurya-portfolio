@@ -1,0 +1,304 @@
+{
+  "personal": {
+    "name": "Kuldeep Maurya",
+    "title": "Full Stack Web Developer",
+    "location": "Bhopal, Madhya Pradesh, India",
+    "email": "kuldeepmaurya4296@gmail.com",
+    "phone": "+91-6263638053",
+    "portfolio": "https://kuldeep.maurya-tech.com",
+    "github": "https://github.com/kuldeepmaurya4296",
+    "linkedin": "https://linkedin.com/in/kuldeepmaurya4296",
+
+    "hero": {
+      "headline": "Building Scalable SaaS Platforms & High-Performance Web Applications",
+      "subheadline": "Full Stack Developer with expertise in backend systems, multi-tenant architecture, and real-world production applications used by 1000+ users.",
+      "cta": ["View Projects", "Contact Me"],
+      "backgroundImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    }
+  },
+
+  "about": {
+    "description": "I am a Full Stack Web Developer with 1.5+ years of experience building scalable SaaS platforms, CRM systems, and high-performance applications. I specialize in backend architecture, REST API design, RBAC systems, and performance optimization. I have independently developed 15+ production-grade applications across business, education, and NGO domains.",
+    
+    "highlights": [
+      "Developed 15+ production applications",
+      "Handled 1000+ users and clients",
+      "Built multi-tenant SaaS platforms",
+      "Strong backend architecture expertise"
+    ],
+
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c"
+  },
+
+  "skills": {
+    "frontend": [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Responsive Design",
+      "SEO Optimization"
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST API Design",
+      "JWT Authentication",
+      "RBAC"
+    ],
+    "database": [
+      "MongoDB",
+      "Mongoose",
+      "Data Modeling",
+      "Indexing",
+      "Query Optimization"
+    ],
+    "core": [
+      "Data Structures & Algorithms",
+      "DBMS",
+      "Operating Systems",
+      "OOP (Java)"
+    ],
+    "concepts": [
+      "System Design",
+      "Scalable Architecture",
+      "Caching",
+      "Pagination",
+      "Lazy Loading"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "Vercel",
+      "Postman"
+    ],
+    "integrations": [
+      "Razorpay",
+      "Google OAuth"
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Pushpako2",
+      "role": "Full Stack Developer",
+      "duration": "Jan 2026 – Present",
+      "location": "Bhopal",
+
+      "description": "Working as a Full Stack Developer building scalable web applications and backend systems.",
+
+      "achievements": [
+        "Developed 10+ production applications",
+        "Handled 1000+ users and clients",
+        "Reduced API payload by 40%",
+        "Improved performance using indexing & caching"
+      ],
+
+      "responsibilities": [
+        "Designing scalable backend architecture",
+        "Building REST APIs with RBAC",
+        "Developing CRM and SaaS platforms",
+        "Integrating payment systems",
+        "Optimizing database queries"
+      ],
+
+      "projects": [
+        "https://pushpako2.com",
+        "https://yantraq.com",
+        "https://agniqtech.com",
+        "https://www.sarvatralabs.com",
+        "https://www.erohanfoundation.org"
+      ]
+    },
+
+    {
+      "company": "Flourishers Edge Pvt. Ltd.",
+      "role": "Frontend Developer",
+      "duration": "Aug 2024 – Jan 2026",
+      "location": "Bhopal",
+
+      "description": "Worked on frontend systems, CMS dashboards, and performance optimization.",
+
+      "achievements": [
+        "Improved performance by 25%",
+        "Built CMS dashboards",
+        "Enhanced UI/UX"
+      ],
+
+      "responsibilities": [
+        "Building responsive UI",
+        "SEO optimization",
+        "API integration",
+        "Frontend performance tuning"
+      ],
+
+      "projects": [
+        "https://flourishersedge.com",
+        "https://www.swatantraindia.in",
+        "https://www.hindconventschool.com"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "fakhri",
+      "title": "Fakhri IT Services Workspace",
+      "type": "SaaS Platform",
+      "featured": true,
+
+      "description": "A complete SaaS-based business management platform with CRM, dashboards, and workflow automation.",
+
+      "problem": "Businesses were using multiple tools for managing clients, tasks, and operations, causing inefficiency and lack of visibility.",
+
+      "solution": "Built a unified platform combining CRM, dashboards, and workflow automation into a single system.",
+
+      "features": [
+        "Super Admin Dashboard",
+        "Admin Dashboard",
+        "Client Dashboard",
+        "CRM system",
+        "Task management",
+        "RBAC authentication"
+      ],
+
+      "tech": ["Next.js", "Node.js", "MongoDB"],
+
+      "impact": [
+        "1000+ clients managed",
+        "30+ employees using system",
+        "Reduced operational complexity by 50%"
+      ],
+
+      "images": {
+        "desktop": [
+          "https://images.unsplash.com/photo-1555421689-491a97ff2040",
+          "https://images.unsplash.com/photo-1557804506-669a67965ba0"
+        ],
+        "mobile": [
+          "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e"
+        ],
+        "tablet": [
+          "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+        ]
+      },
+
+      "live": "https://www.fakhriitservices.com"
+    },
+
+    {
+      "id": "erohan",
+      "title": "Erohan Foundation",
+      "type": "NGO Platform",
+      "description": "Donation platform with campaign management.",
+      "features": [
+        "Donation system",
+        "Razorpay integration",
+        "CMS dashboard"
+      ],
+      "images": {
+        "desktop": [
+          "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c"
+        ]
+      },
+      "live": "https://www.erohanfoundation.org"
+    },
+
+    {
+      "id": "pushpako2",
+      "title": "Pushpako2",
+      "type": "Corporate Website",
+      "live": "https://pushpako2.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1492724441997-5dc865305da7"]
+      }
+    },
+
+    {
+      "id": "yantraq",
+      "title": "Yantraq",
+      "type": "Business Website",
+      "live": "https://yantraq.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1581091870627-3f3d3c8b64b6"]
+      }
+    },
+
+    {
+      "id": "agniqtech",
+      "title": "Agniqtech",
+      "type": "Tech Website",
+      "live": "https://agniqtech.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1518779578993-ec3579fee39f"]
+      }
+    },
+
+    {
+      "id": "sarvatralabs",
+      "title": "Sarvatra Labs",
+      "type": "Corporate Platform",
+      "live": "https://www.sarvatralabs.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1504384308090-c894fdcc538d"]
+      }
+    },
+
+    {
+      "id": "flourishers",
+      "title": "Flourishers Edge",
+      "type": "Corporate Website",
+      "live": "https://flourishersedge.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1504384308090-c894fdcc538d"]
+      }
+    },
+
+    {
+      "id": "news",
+      "title": "Swatantra India News",
+      "type": "CMS Platform",
+      "live": "https://www.swatantraindia.in",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1504711434969-e33886168f5c"]
+      }
+    },
+
+    {
+      "id": "school",
+      "title": "Hind Convent School",
+      "type": "Education Website",
+      "live": "https://www.hindconventschool.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1503676260728-1c00da094a0b"]
+      }
+    },
+
+    {
+      "id": "maurya",
+      "title": "Maurya Technologies",
+      "type": "Business Website",
+      "live": "https://maurya-tech.com",
+      "images": {
+        "desktop": ["https://images.unsplash.com/photo-1498050108023-c5249f4df085"]
+      }
+    }
+  ],
+
+  "achievements": [
+    "GATE 2026 Qualified (DA) – AIR 5078",
+    "GATE 2026 Qualified (CS) – AIR 13656",
+    "Built 15+ production applications",
+    "Handled 1000+ users"
+  ],
+
+  "contact": {
+    "cta": "Let's build something great together",
+    "email": "kuldeepmaurya4296@gmail.com",
+    "phone": "+91-6263638053",
+    "socials": [
+      "https://github.com/kuldeepmaurya4296",
+      "https://linkedin.com/in/kuldeepmaurya4296"
+    ]
+  }
+}
